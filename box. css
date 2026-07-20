@@ -1,0 +1,81 @@
+:root{
+  --background-color: darkorange;
+  --button-bg-color: darkorange;
+  --hover-bg-color: darkorange;
+}
+body{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+background-color: darkorange ;
+color: white;
+}
+.box-1 p{
+  font-size:16px;
+  word-spacing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.box-1 h2{
+  font-size:40px;
+  font-weight: bold;
+}
+.box-1 button{
+  width: 120px;
+  height: 40px;
+  background: transparent;
+  border: 2px dashed white;
+  border-radius: 8px;
+color: white;
+}
+.box-1 button:hover{
+  background-color: white;
+  color: var(--hover-bg-color);
+  transition: background-color 0.5s , color 0.5s;
+}
+.box-1,
+.box-2{
+  flex: 50%;
+  
+}
+.box-2{
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+}
+.box-2 div{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 16px;
+}
+.box-2 h4{
+  color: black;
+  font-family:"segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ transform: capitalize;
+}
+.box-2 a {
+  font-size: 16px;
+  color: black;
+}
+.div-2 a:hover{
+  color: var(--button-bg-color);
+  background-color: white;
+}
+.container{
+  display: flex;
+  gap:30px;
+  align-items: center; 
+  justify-content: center;
+  font-family: Verdana; 
+  color: white;
+  max-width: 80%;
+  margin: 50px auto;
+}
+  .box-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    gap: 10px;
+  }
